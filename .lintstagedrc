@@ -1,0 +1,19 @@
+{
+  "linters": {
+    "*.{cmd,html,json,md,sh,txt,xml,yml}": [
+      "editorconfig-tools fix",
+      "git add"
+    ],
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{css,less,scss,sss}": [
+      "stylelint --fix",
+      "git add"
+    ]
+  },
+  "ignore": [
+    "./node_modules/*"
+  ]
+}
