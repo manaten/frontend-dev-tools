@@ -11,6 +11,10 @@
     "*.{css,less,scss,sss}": [
       "stylelint --fix",
       "git add"
+    ],
+    "*.{png,jpeg,jpg,gif}": [
+      "imagemin-lint-staged",
+      "git add"
     ]
   },
   "ignore": [
