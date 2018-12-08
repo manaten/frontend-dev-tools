@@ -16,9 +16,6 @@ Write settings in your package.json
 
 ```json
 {
-  "devDependencies": {
-    "@manaten/frontend-dev-tools": "https://github.com/manaten/frontend-dev-tools.git"
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged -c ./node_modules/@manaten/frontend-dev-tools/.lintstagedrc",
