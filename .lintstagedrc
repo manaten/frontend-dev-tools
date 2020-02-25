@@ -1,6 +1,6 @@
 {
   "*.{cmd,html,json,md,sh,txt,xml,yml}": [
-    "editorconfig-tools fix",
+    "eclint fix",
     "git add"
   ],
   "*.{js,jsx,ts,tsx}": [

@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/manaten/frontend-dev-tools#readme",
   "dependencies": {
-    "editorconfig-tools": "0.1.1",
+    "eclint": "2.8.1",
     "eslint": "6.8.0",
     "eslint-plugin-compat": "3.5.1",
     "eslint-plugin-import": "2.20.1",
