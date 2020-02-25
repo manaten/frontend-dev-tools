@@ -1,23 +1,18 @@
 {
-  "linters": {
-    "*.{cmd,html,json,md,sh,txt,xml,yml}": [
-      "editorconfig-tools fix",
-      "git add"
-    ],
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.{css,less,scss,sss}": [
-      "stylelint --fix",
-      "git add"
-    ],
-    "*.{png,jpeg,jpg,gif}": [
-      "imagemin-lint-staged",
-      "git add"
-    ]
-  },
-  "ignore": [
-    "./node_modules/*"
+  "*.{cmd,html,json,md,sh,txt,xml,yml}": [
+    "editorconfig-tools fix",
+    "git add"
+  ],
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --fix",
+    "git add"
+  ],
+  "*.{css,less,scss,sss}": [
+    "stylelint --fix",
+    "git add"
+  ],
+  "*.{png,jpeg,jpg,gif}": [
+    "imagemin-lint-staged",
+    "git add"
   ]
 }
