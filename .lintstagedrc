@@ -1,6 +1,6 @@
 {
   "*.{cmd,html,json,md,sh,txt,xml,yml}": "eclint fix",
-  "*.{js,jsx,ts,tsx}": "eslint --fix",
+  "*.{js,jsx,ts,tsx,mjs}": "eslint --fix",
   "*.{css,less,scss,sss}": "stylelint --fix",
   "*.{png,jpeg,jpg,gif}": "imagemin-lint-staged"
 }
